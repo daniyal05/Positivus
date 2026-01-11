@@ -39,3 +39,14 @@ h3, .h3 {
 h4, .h4 {
   @include fluid-text(20, 18)
 }
+::-webkit-scrollbar{
+  width: 10px;
+}
+/* ⩢ псевдоэлемент CSS, который позволяет стилизовать ползунок (движущуюся часть) полосы прокрутки в браузерах на движке WebKit*/
+::-webkit-scrollbar-thumb{
+  background-color: var(--color-accent);
+}
+/* ⩢ псевдоэлемент CSS, который позволяет стилизовать фон прокрутки*/
+::-webkit-scrollbar-track{
+  background-color: var(--color-dark);
+}
